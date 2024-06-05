@@ -10,6 +10,11 @@ body {
 
 a {
 	color: #E38D37;
+
+	&:hover {
+		transition: all 300ms ease-in-out;
+		transform: scale(1.2);
+	}
 }
 
 #card {
