@@ -1,0 +1,10 @@
+// Components
+@import "components/typography"; // this first
+
+// Import Bootsrap 5 (import after components)
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Layout
+@import "layout/display";
+@import "layout/footer";
+

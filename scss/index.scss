@@ -1,0 +1,49 @@
+@use "main";
+@import "components/grid_breakpoints";
+@import "../node_modules/bootstrap/scss/mixins/breakpoints";
+
+$titleTextShadow: #682f10;
+
+body {
+	background-color: beige;
+}
+
+a {
+	color: #E38D37;
+}
+
+#card {
+	background-color: #8e431b;
+	border-color: $titleTextShadow;
+	border-width: 4px 1px 4px 1px;
+
+	// @include media-breakpoint-up(md) {
+	// 	max-width: map-get($map: $grid-breakpoints, $key: sm);
+	// 	// max-width: 700px;
+	// }
+
+	// img {
+	// 	max-width: 500px;
+	// }
+
+	.card-title {
+		font-family: "Dwarven Stonecraft", serif;
+		font-size: 28px;
+		color: darkgoldenrod;
+		text-shadow: 1px 0 0 $titleTextShadow, -1px 0 0 $titleTextShadow, 0 1px 0 $titleTextShadow, 0 -1px 0 $titleTextShadow, 1px 1px $titleTextShadow, -1px -1px 0 $titleTextShadow, 1px -1px 0 $titleTextShadow, -1px 1px 0 $titleTextShadow;
+	}
+
+	#card-desc {
+		background-color: #fcc689;
+		font-family: "BrianneTod", sans-serif;
+		font-size: 20px;
+		color: brown;
+	}
+
+	.main-desc {
+		color: darkblue;
+	}
+	.impt-detail {
+		color: red;
+	}
+}

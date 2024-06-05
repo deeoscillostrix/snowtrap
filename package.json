@@ -1,0 +1,21 @@
+{
+	"name": "snowtrap",
+	"version": "1.0.0",
+	"description": "SnowTrap's Almanac Entry",
+	"main": "index.js",
+	"scripts": {
+		"compile:sass": "sass scss/:assets/css/ --style compressed",
+		"watch:sass": "sass --watch scss/:assets/css/ --style compressed",
+		"server": "php -S localhost:8888 -t public"
+	},
+	"keywords": [],
+	"author": "deeoscillostrix",
+	"license": "ISC",
+	"dependencies": {
+		"bootstrap": "^5.3.3"
+	},
+	"devDependencies": {
+		"sass": "^1.77.4",
+		"scss": "^0.2.4"
+	}
+}
