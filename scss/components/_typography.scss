@@ -5,7 +5,7 @@ $font_dir: "../fonts";
 
 @font-face {
 	font-family: "BrianneTod";
-	src: url("#{$font_dir}/BrianneTod.TTF") format("truetype");
+	src: url("#{$font_dir}/BrianneTod.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal; // 400
 	font-display: swap;
